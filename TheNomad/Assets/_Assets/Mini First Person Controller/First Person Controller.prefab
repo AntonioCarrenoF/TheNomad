@@ -483,6 +483,7 @@ GameObject:
   - component: {fileID: 114497868231759342}
   - component: {fileID: 114762042097486276}
   - component: {fileID: 7421267809621228674}
+  - component: {fileID: 1540283698730640764}
   m_Layer: 0
   m_Name: First Person Controller
   m_TagString: Jugador
@@ -622,6 +623,20 @@ MonoBehaviour:
   velocidadDisparo: 40
   distanciaDisparo: 50
   prefabBala: {fileID: 2476856319007606076, guid: 6bcf571ee353b42e2acd55870eec0d0f, type: 3}
+--- !u!114 &1540283698730640764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773623360729482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11f2f96bfa7f4236be3a8561037f687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidasIniciales: 5
+  menuFinJuego: {fileID: 0}
 --- !u!1 &1963958859065967600
 GameObject:
   m_ObjectHideFlags: 0

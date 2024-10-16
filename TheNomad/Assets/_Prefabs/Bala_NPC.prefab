@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2936186341334666111}
   - component: {fileID: 1705863139158514738}
   - component: {fileID: 9185703264973045840}
+  - component: {fileID: -2636055758073454110}
   m_Layer: 0
   m_Name: Bala_NPC
   m_TagString: Bala
@@ -133,3 +134,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-2636055758073454110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2476856319007606076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 956552977bf654b51bbcff03df5ac984, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenciaVidas: {fileID: 0}

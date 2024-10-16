@@ -16,7 +16,7 @@ public class ColisionBala : MonoBehaviour
     {
         if (collision.gameObject.tag == "Jugador")
         {
-            referenciaVidas.EliminarVida();
+            referenciaVidas.PerderVida();
         }
     }
 
