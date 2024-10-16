@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 5231302965724916759}
   - component: {fileID: 6403053985992157598}
   - component: {fileID: 3626767049120563070}
+  - component: {fileID: -4225777488615632477}
   m_Layer: 0
   m_Name: NPC_Enemigo
   m_TagString: Untagged
@@ -183,6 +184,19 @@ MonoBehaviour:
   distanciaDisparo: 30
   prefabBala: {fileID: 2476856319007606076, guid: f467882665699461fbbe9813adda7b47, type: 3}
   puntoDisparo: {fileID: 667619270167994152}
+--- !u!114 &-4225777488615632477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8432443005850523344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 956552977bf654b51bbcff03df5ac984, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenciaVidas: {fileID: 0}
 --- !u!1 &8527063314900176316
 GameObject:
   m_ObjectHideFlags: 0
