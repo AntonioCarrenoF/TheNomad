@@ -832,9 +832,41 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1540283698730640764, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: canvasVidas
+      value: 
+      objectReference: {fileID: 1838703465}
+    - target: {fileID: 1540283698730640764, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: prefabVidas
+      value: 
+      objectReference: {fileID: 1808194527}
+    - target: {fileID: 1540283698730640764, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: menuFinJuego
       value: 
       objectReference: {fileID: 226718375}
+    - target: {fileID: 1540283698730640764, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: objetosVida.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540283698730640764, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: objetosVida.Array.data[0]
+      value: 
+      objectReference: {fileID: 1808194527}
+    - target: {fileID: 1540283698730640764, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: objetosVida.Array.data[1]
+      value: 
+      objectReference: {fileID: 2097815836}
+    - target: {fileID: 1540283698730640764, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: objetosVida.Array.data[2]
+      value: 
+      objectReference: {fileID: 1503003417}
+    - target: {fileID: 1540283698730640764, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: objetosVida.Array.data[3]
+      value: 
+      objectReference: {fileID: 1240853874}
+    - target: {fileID: 1540283698730640764, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: objetosVida.Array.data[4]
+      value: 
+      objectReference: {fileID: 812755713}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

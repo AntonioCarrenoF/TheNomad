@@ -1,33 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class AdministradorVidas : MonoBehaviour
 {
     public int vidasIniciales = 5;
+    public Canvas canvasVidas;
+    public List<GameObject> objetosVida;
+    public GameObject prefabVidas;
     public GameObject menuFinJuego;
-    private int vidasActuales;
 
 
     public void Start()
     {
-        vidasActuales = vidasIniciales;
+        objetosVida = new List<GameObject>();
+        for (int i = 0; i < vidasIniciales; i++)
+        {
+            GameObject objetoVida = Instantiate(prefabVidas, canvasVidas.transform);
+            objetosVida.Add(objetoVida);
+        }
     }
 
     public void PerderVida()
     {
-        vidasActuales--;
-        if (vidasActuales <= 0)
+        if (objetosVida.Count > 0)
         {
-            PerderJuego();
+            GameObject objetoVida = objetosVida.Last();
+            objetosVida.Remove(objetoVida);
+            Destroy(objetoVida);
+            if (objetosVida.Count == 0)
+            {
+                menuFinJuego.SetActive(true);
+            }
         }
-    }
 
-
-    private void PerderJuego()
-    {
-        menuFinJuego.SetActive(true);
     }
 
 }
