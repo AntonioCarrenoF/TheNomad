@@ -636,6 +636,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidasIniciales: 5
+  canvasVidas: {fileID: 0}
+  objetosVida: []
+  prefabVidas: {fileID: 1312939135501034008, guid: c185c74c8789b4610819a7c164d03adb, type: 3}
   menuFinJuego: {fileID: 0}
 --- !u!1 &1963958859065967600
 GameObject:

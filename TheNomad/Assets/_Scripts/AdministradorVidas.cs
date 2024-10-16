@@ -4,11 +4,13 @@ using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class AdministradorVidas : MonoBehaviour
 {
     public int vidasIniciales = 5;
     public Canvas canvasVidas;
+    public TextMeshProUGUI textoVidas;
     public List<GameObject> objetosVida;
     public GameObject prefabVidas;
     public GameObject menuFinJuego;
@@ -16,6 +18,7 @@ public class AdministradorVidas : MonoBehaviour
 
     public void Start()
     {
+        textoVidas.text = "Vidas: " + vidasIniciales;
         objetosVida = new List<GameObject>();
         for (int i = 0; i < vidasIniciales; i++)
         {
@@ -31,9 +34,11 @@ public class AdministradorVidas : MonoBehaviour
             GameObject objetoVida = objetosVida.Last();
             objetosVida.Remove(objetoVida);
             Destroy(objetoVida);
+            textoVidas.text = "Vidas: " + objetosVida.Count;
             if (objetosVida.Count == 0)
             {
                 menuFinJuego.SetActive(true);
+                Time.timeScale = 0.0f;
             }
         }
 
