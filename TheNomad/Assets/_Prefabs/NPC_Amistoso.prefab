@@ -115,6 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5231302965724916759}
   - component: {fileID: 6403053985992157598}
+  - component: {fileID: 5942170852379928253}
   m_Layer: 0
   m_Name: NPC_Amistoso
   m_TagString: Untagged
@@ -166,6 +167,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &5942170852379928253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8432443005850523344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1a36757554d4330b1da5134434e382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoDialogo: {fileID: 0}
+  opcion1: {fileID: 0}
+  opcion2: {fileID: 0}
+  dialogoInicial: "Hola, \xBFqu\xE9 te trae por Landfield?"
+  opcion1Texto: Deseo explorar el lugar, se ve que hay cosas muy interesantes por
+    descubrir
+  opcion2Texto: No es de tu incumbencia
+  dialogoOpcion1: "Es correcto, bienvenido, solamente ten cuidado en tu aventura,
+    no todos somos amistosos y algunas personas podr\xEDan herirte, suerte!!!"
+  dialogoOpcion2: "Tienes suerte que no estoy en humor de pelear, sin embargo, no
+    siempre tendr\xE1s la misma suerte, largo de aqu\xED!!!"
 --- !u!1 &8527063314900176316
 GameObject:
   m_ObjectHideFlags: 0

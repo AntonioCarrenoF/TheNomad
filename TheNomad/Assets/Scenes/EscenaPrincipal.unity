@@ -204,7 +204,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 42623525}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1453924256}
+        m_TargetAssemblyTypeName: DialogoNPC, Assembly-CSharp
+        m_MethodName: Opcion2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &42623525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,13 +401,14 @@ GameObject:
   - component: {fileID: 155864789}
   - component: {fileID: 155864788}
   - component: {fileID: 155864787}
+  - component: {fileID: 155864791}
   m_Layer: 5
   m_Name: Dialogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &155864787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,10 +438,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -481,6 +494,29 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &155864791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155864786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1a36757554d4330b1da5134434e382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoDialogo: {fileID: 2106688475}
+  opcion1: {fileID: 992819842}
+  opcion2: {fileID: 42623524}
+  dialogoInicial: "Hola, \xBFqu\xE9 te trae por Landfield?"
+  opcion1Texto: Deseo explorar el lugar, se ve que hay cosas muy interesantes por
+    descubrir
+  opcion2Texto: No es de tu incumbencia
+  dialogoOpcion1: "Es correcto, bienvenido, solamente ten cuidado en tu aventura,
+    no todos somos amistosos y algunas personas podr\xEDan herirte, suerte!!!"
+  dialogoOpcion2: "Tienes suerte que no estoy en humor de pelear, sin embargo, no
+    siempre tendr\xE1s la misma suerte, largo de aqu\xED!!!"
 --- !u!1 &226718375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,6 +1238,10 @@ PrefabInstance:
       propertyPath: menuFinJuego
       value: 
       objectReference: {fileID: 226718375}
+    - target: {fileID: 6458348587241407119, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: npc
+      value: 
+      objectReference: {fileID: 1453924256}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1561,7 +1601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5231302965724916759, guid: 89ae25a04486b4417a8700d3f6253761, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5231302965724916759, guid: 89ae25a04486b4417a8700d3f6253761, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2042,7 +2082,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 992819843}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1453924256}
+        m_TargetAssemblyTypeName: DialogoNPC, Assembly-CSharp
+        m_MethodName: Opcion1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &992819843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2317,6 +2369,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129482107}
   m_CullTransparentMesh: 1
+--- !u!1001 &1411999972
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5231302965724916759, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 282
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231302965724916759, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231302965724916759, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231302965724916759, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231302965724916759, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231302965724916759, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231302965724916759, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231302965724916759, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231302965724916759, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231302965724916759, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5942170852379928253, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: opcion1
+      value: 
+      objectReference: {fileID: 992819842}
+    - target: {fileID: 5942170852379928253, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: opcion2
+      value: 
+      objectReference: {fileID: 42623524}
+    - target: {fileID: 5942170852379928253, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: textoDialogo
+      value: 
+      objectReference: {fileID: 2106688475}
+    - target: {fileID: 8432443005850523344, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+      propertyPath: m_Name
+      value: NPC_Amistoso
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
 --- !u!1 &1431491580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2451,6 +2572,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431491580}
   m_CullTransparentMesh: 1
+--- !u!114 &1453924256 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5942170852379928253, guid: 9c135f1c7aa8d4c508a0e5982f4abbc0, type: 3}
+  m_PrefabInstance: {fileID: 1411999972}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1a36757554d4330b1da5134434e382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1532022879
 GameObject:
   m_ObjectHideFlags: 0
@@ -3618,4 +3750,5 @@ SceneRoots:
   - {fileID: 1532022883}
   - {fileID: 226718379}
   - {fileID: 931544713}
+  - {fileID: 1411999972}
   - {fileID: 155864790}

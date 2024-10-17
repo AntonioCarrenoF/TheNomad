@@ -484,6 +484,7 @@ GameObject:
   - component: {fileID: 114762042097486276}
   - component: {fileID: 7421267809621228674}
   - component: {fileID: 1540283698730640764}
+  - component: {fileID: 6458348587241407119}
   m_Layer: 0
   m_Name: First Person Controller
   m_TagString: Jugador
@@ -637,9 +638,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidasIniciales: 5
   canvasVidas: {fileID: 0}
+  textoVidas: {fileID: 0}
   objetosVida: []
   prefabVidas: {fileID: 1312939135501034008, guid: c185c74c8789b4610819a7c164d03adb, type: 3}
   menuFinJuego: {fileID: 0}
+--- !u!114 &6458348587241407119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773623360729482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df5b622ee26e4d76a4ded84fbc6dd35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npc: {fileID: 0}
 --- !u!1 &1963958859065967600
 GameObject:
   m_ObjectHideFlags: 0
