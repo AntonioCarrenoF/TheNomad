@@ -8,6 +8,7 @@ public class Disparar : MonoBehaviour
     public float distanciaDisparo = 50f;
     public GameObject prefabBala;
     private Camera camaraDisparo;
+    public int dano = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,17 @@ public class Disparar : MonoBehaviour
         }
         
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "NPCEnemigo")
+        {
+            SaludNPC saludNPC = collision.gameObject.GetComponent<SaludNPC>();
+            saludNPC.RecibirDano(dano);
+
+        }
+    }
+
 
     public void DispararArma()
     {
