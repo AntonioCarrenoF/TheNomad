@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuInicial : MonoBehaviour
 {
-    public GameObject MenuNiveles;
+    public GameObject MenuControles;
     public GameObject MenuPrincipal;
 
     public void IniciarJuego()
@@ -13,36 +13,21 @@ public class MenuInicial : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void SegundoNivel()
-    {
-        SceneManager.LoadScene(2);
-    }
-
-    public void TercerNivel()
-    {
-        SceneManager.LoadScene(3);
-    }
-
-    public void CuartoNivel()
-    {
-        SceneManager.LoadScene(4);
-    }
-
     public void FinalizarJuego()
     {
         Application.Quit();
     }
 
-    public void MostrarNiveles()
+    public void MostrarControles()
     {
         MenuPrincipal.SetActive(false);
-        MenuNiveles.SetActive(true);
+        MenuControles.SetActive(true);
     }
 
     public void MostrarMenuInicial()
     {
         MenuPrincipal.SetActive(true);
-        MenuNiveles.SetActive(false);
+        MenuControles.SetActive(false);
     }
 
 }
