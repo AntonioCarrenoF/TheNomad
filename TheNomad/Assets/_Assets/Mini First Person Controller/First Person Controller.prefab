@@ -733,7 +733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a11f2f96bfa7f4236be3a8561037f687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidasIniciales: 5
+  vidasIniciales: 15
   canvasVidas: {fileID: 0}
   textoVidas: {fileID: 0}
   objetosVida: []
