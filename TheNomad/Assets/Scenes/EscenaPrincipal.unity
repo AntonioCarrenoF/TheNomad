@@ -464,6 +464,7 @@ GameObject:
   - component: {fileID: 155864788}
   - component: {fileID: 155864787}
   - component: {fileID: 155864791}
+  - component: {fileID: 155864792}
   m_Layer: 5
   m_Name: Dialogo
   m_TagString: Untagged
@@ -579,6 +580,22 @@ MonoBehaviour:
     no todos somos amistosos y algunas personas podr\xEDan herirte, suerte!!!"
   dialogoOpcion2: "Tienes suerte que no estoy en humor de pelear, sin embargo, no
     siempre tendr\xE1s la misma suerte, largo de aqu\xED!!!"
+--- !u!114 &155864792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155864786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1665645c3c23947aa8d20180ad4b5512, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botonAmistoso: {fileID: 992819842}
+  tecla1: 49
+  botonDesagradable: {fileID: 42623524}
+  tecla2: 50
 --- !u!1 &226718375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1755,7 +1772,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Desagradable
+  m_text: Desagradable (2)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3467,7 +3484,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Amistoso
+  m_text: Amistoso (1)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
