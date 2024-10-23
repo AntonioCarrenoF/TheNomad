@@ -28,6 +28,11 @@ public class DispararNPC : Disparar
         }
     }
 
+    /**
+     * Funcion para disparar una bala y destruirla después de un tiempo determinado, \n en este caso se modificó para disparar \n
+     * directamente a la posición del jugador
+     */
+
     public new void DispararArma()
     {
         GameObject bala = Instantiate(prefabBala, puntoDisparo.position, puntoDisparo.rotation);
