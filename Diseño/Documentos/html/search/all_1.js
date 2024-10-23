@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['botonamistoso_0',['botonAmistoso',['../d1/d4d/class_botones_dialogo.html#aee48c6df0ec7940c8e793c09ae037f5b',1,'BotonesDialogo']]],
+  ['botoncontroles_1',['botonControles',['../dd/db1/class_botones_menu_principal.html#a23a7ea2746b04576c9e7ab8248528452',1,'BotonesMenuPrincipal']]],
+  ['botondesagradable_2',['botonDesagradable',['../d1/d4d/class_botones_dialogo.html#a3a0c630b527fbfdf5f1fa39b787d01ee',1,'BotonesDialogo']]],
+  ['botonesdialogo_3',['BotonesDialogo',['../d1/d4d/class_botones_dialogo.html',1,'']]],
+  ['botonesdialogo_2ecs_4',['BotonesDialogo.cs',['../df/de3/_botones_dialogo_8cs.html',1,'']]],
+  ['botonesfinjuego_5',['BotonesFinJuego',['../d6/dad/class_botones_fin_juego.html',1,'']]],
+  ['botonesfinjuego_2ecs_6',['BotonesFinJuego.cs',['../d4/d0a/_botones_fin_juego_8cs.html',1,'']]],
+  ['botonesmenucontroles_7',['BotonesMenuControles',['../d5/ddf/class_botones_menu_controles.html',1,'']]],
+  ['botonesmenucontroles_2ecs_8',['BotonesMenuControles.cs',['../d2/dcc/_botones_menu_controles_8cs.html',1,'']]],
+  ['botonesmenuprincipal_9',['BotonesMenuPrincipal',['../dd/db1/class_botones_menu_principal.html',1,'']]],
+  ['botonesmenuprincipal_2ecs_10',['BotonesMenuPrincipal.cs',['../df/d08/_botones_menu_principal_8cs.html',1,'']]],
+  ['botonespausa_11',['BotonesPausa',['../d5/d0d/class_botones_pausa.html',1,'']]],
+  ['botonespausa_2ecs_12',['BotonesPausa.cs',['../d1/d58/_botones_pausa_8cs.html',1,'']]],
+  ['botonesui_13',['BotonesUI',['../d2/d31/class_botones_u_i.html',1,'']]],
+  ['botonesui_2ecs_14',['BotonesUI.cs',['../d5/d04/_botones_u_i_8cs.html',1,'']]],
+  ['botoniniciar_15',['botonIniciar',['../dd/db1/class_botones_menu_principal.html#a827338e43ff3eb160dd58dc7e3e872ce',1,'BotonesMenuPrincipal']]],
+  ['botonmenu_16',['botonMenu',['../d6/dad/class_botones_fin_juego.html#ad3f0e7f5e8c89e7a54144c8f7c25e174',1,'BotonesFinJuego.botonMenu'],['../d5/d0d/class_botones_pausa.html#a38387351491a17f1c8a0e055a1743e3e',1,'BotonesPausa.botonMenu']]],
+  ['botonpausa_17',['botonPausa',['../d2/d31/class_botones_u_i.html#ae3e57cff3e4d4031677ba7c427736221',1,'BotonesUI']]],
+  ['botonreanudar_18',['botonReanudar',['../d5/d0d/class_botones_pausa.html#a37695df83ab0bc40cb344d4885ff122b',1,'BotonesPausa']]],
+  ['botonregresar_19',['botonRegresar',['../d5/ddf/class_botones_menu_controles.html#a188d52c3b129ba1d1bf012e0f5ce6ea6',1,'BotonesMenuControles']]],
+  ['botonreiniciar_20',['botonReiniciar',['../d6/dad/class_botones_fin_juego.html#a6f80b736e7378946b302ac0e1a8a0cc8',1,'BotonesFinJuego']]],
+  ['botonsalir_21',['botonSalir',['../dd/db1/class_botones_menu_principal.html#a0dc42a6f5add55956a5c532f4e26d47b',1,'BotonesMenuPrincipal.botonSalir'],['../d5/d0d/class_botones_pausa.html#a86f5726b445c84c0c87f3df8dc446dd0',1,'BotonesPausa.botonSalir']]]
+];
