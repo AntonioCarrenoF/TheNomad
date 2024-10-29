@@ -14,12 +14,11 @@ public class Disparar : MonoBehaviour
     public float velocidadDisparo = 10f;
     public float distanciaDisparo = 50f;
     public GameObject prefabBala;
-    private Camera camaraDisparo;
 
     // Start is called before the first frame update
     void Start()
     {
-        camaraDisparo = GetComponentInChildren<Camera>();
+
     }
 
     // Update is called once per frame
@@ -38,8 +37,8 @@ public class Disparar : MonoBehaviour
 
     public void DispararArma()
     {
-        GameObject tempBala = Instantiate(prefabBala, camaraDisparo.transform.position, camaraDisparo.transform.rotation);
-        tempBala.GetComponent<Rigidbody>().velocity = camaraDisparo.transform.forward * velocidadDisparo;
+        GameObject tempBala = Instantiate(prefabBala, transform.position, transform.rotation);
+        tempBala.GetComponent<Rigidbody>().velocity = tempBala.transform.forward * velocidadDisparo;
         Destroy(tempBala, distanciaDisparo / velocidadDisparo);
     }
 }
