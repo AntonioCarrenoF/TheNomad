@@ -18,11 +18,11 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - NPCAmistoso
+  - NPCEnemigo
+  - Bala
+  - BalaNPC
   - 
   - 
   - 
