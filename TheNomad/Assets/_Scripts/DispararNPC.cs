@@ -7,11 +7,13 @@ public class DispararNPC : Disparar
     private float tiempoDesdeUltimoDisparo = 1f;
     public Transform puntoDisparo;
     private Transform jugador;
+    private AudioSource fuenteDeSonido;
 
     // Start is called before the first frame update
     void Start()
     {
         jugador = GameObject.FindGameObjectWithTag("Jugador").transform;
+        fuenteDeSonido = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -38,6 +40,7 @@ public class DispararNPC : Disparar
         GameObject bala = Instantiate(prefabBala, puntoDisparo.position, puntoDisparo.rotation);
         bala.GetComponent<Rigidbody>().velocity = (jugador.position - puntoDisparo.position).normalized * velocidadDisparo;
         Destroy(bala, distanciaDisparo / velocidadDisparo);
+        fuenteDeSonido.PlayOneShot(Disparo);
     }
     
 }
