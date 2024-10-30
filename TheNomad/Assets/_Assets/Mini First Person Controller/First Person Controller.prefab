@@ -1586,3 +1586,4 @@ MonoBehaviour:
   velocidadDisparo: 40
   distanciaDisparo: 30
   prefabBala: {fileID: 2476856319007606076, guid: 6bcf571ee353b42e2acd55870eec0d0f, type: 3}
+  sonidoDisparo: {fileID: 8300000, guid: 6fb0f94e02015487cb054b9a5a390a09, type: 3}

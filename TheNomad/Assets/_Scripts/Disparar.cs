@@ -14,11 +14,13 @@ public class Disparar : MonoBehaviour
     public float velocidadDisparo = 10f;
     public float distanciaDisparo = 50f;
     public GameObject prefabBala;
+    public AudioClip Disparo;
+    private AudioSource fuenteDeSonido;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        fuenteDeSonido = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -40,5 +42,6 @@ public class Disparar : MonoBehaviour
         GameObject tempBala = Instantiate(prefabBala, transform.position, transform.rotation);
         tempBala.GetComponent<Rigidbody>().velocity = tempBala.transform.forward * velocidadDisparo;
         Destroy(tempBala, distanciaDisparo / velocidadDisparo);
+        fuenteDeSonido.PlayOneShot(Disparo);
     }
 }
