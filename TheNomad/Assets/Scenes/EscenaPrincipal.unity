@@ -1452,6 +1452,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a1c87b46106f524783d116063b4bb54, type: 3}
+--- !u!82 &478366809 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7333272820257634015, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 715694183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &478366814 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 20437472682476688, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 715694183}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &542619804 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5231302965724916759, guid: 89ae25a04486b4417a8700d3f6253761, type: 3}
@@ -4532,6 +4542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f722e50f9fed0484c8b6f685a828a4f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musica: {fileID: 478366809}
+  camara: {fileID: 478366814}
 --- !u!114 &1532022885
 MonoBehaviour:
   m_ObjectHideFlags: 0
