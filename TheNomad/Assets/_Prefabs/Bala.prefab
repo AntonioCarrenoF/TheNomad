@@ -146,4 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582c63ee80ab94c228e1e95111a7b7d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particulasExplosion: {fileID: 1601938708953505743, guid: f88f4dbdde263404181a1c48ce03533f, type: 3}
   dano: 1
