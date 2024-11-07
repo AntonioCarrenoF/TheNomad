@@ -44,4 +44,14 @@ public class AdministradorVidas : MonoBehaviour
 
     }
 
+    public void GanarVida(int cantidad)
+    {
+        for (int i = 0; i < cantidad; i++)
+        {
+            GameObject objetoVida = Instantiate(prefabVidas, canvasVidas.transform);
+            objetosVida.Add(objetoVida);
+        }
+        textoVidas.text = "Vidas: " + objetosVida.Count;
+    }
+
 }
