@@ -18,6 +18,8 @@ var hierarchy =
       [ "MenuFinJuego", "da/dd2/class_menu_fin_juego.html", null ],
       [ "MenuInicial", "da/d88/class_menu_inicial.html", null ],
       [ "MenuPausa", "d0/d9b/class_menu_pausa.html", null ],
+      [ "MisionPrimera", "da/d9d/class_mision_primera.html", null ],
+      [ "RecuperarSalud", "dd/d2c/class_recuperar_salud.html", null ],
       [ "SaludNPC", "d8/d71/class_salud_n_p_c.html", null ],
       [ "TiempoParado", "d7/df2/class_tiempo_parado.html", null ]
     ] ]

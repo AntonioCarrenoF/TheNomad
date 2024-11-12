@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">The Nomad<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">The Nomad<span id="projectnumber">&#160;2.0</span>
    </div>
-   <div id="projectbrief">Primer prototipo de The Nomad</div>
+   <div id="projectbrief">Primer prototipo del proyecto</div>
   </td>
  </tr>
  </tbody>
@@ -107,18 +107,32 @@ $(function(){initNavTree('d8/d26/_parar_tiempo_8cs_source.html','../../'); initR
 <div class="foldopen" id="foldopen00005" data-start="{" data-end="};">
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="../../d7/df2/class_tiempo_parado.html">    5</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="../../d7/df2/class_tiempo_parado.html">TiempoParado</a> : MonoBehaviour</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keyword">private</span> <span class="keywordtype">void</span> OnEnable()</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    {</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        Time.timeScale = 0.0f;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    }</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">private</span> <span class="keywordtype">void</span> OnDisable()</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../d7/df2/class_tiempo_parado.html#a1aa59f6caa1303d0692738750f7294c3">    7</a></span>    <span class="keyword">public</span> Camera <a class="code hl_variable" href="../../d7/df2/class_tiempo_parado.html#a1aa59f6caa1303d0692738750f7294c3">camara</a>;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="keyword">private</span> Vector3 posicion;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="keyword">private</span> Quaternion rotacion;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">private</span> <span class="keywordtype">void</span> OnEnable()</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    {</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        Time.timeScale = 1.0f;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    }</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>}</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        Time.timeScale = 0.0f;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        posicion = <a class="code hl_variable" href="../../d7/df2/class_tiempo_parado.html#a1aa59f6caa1303d0692738750f7294c3">camara</a>.transform.position;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        rotacion = <a class="code hl_variable" href="../../d7/df2/class_tiempo_parado.html#a1aa59f6caa1303d0692738750f7294c3">camara</a>.transform.rotation;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    }</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">private</span> <span class="keywordtype">void</span> Update()</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        camara.transform.position = posicion;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        camara.transform.rotation = rotacion;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    }</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">private</span> <span class="keywordtype">void</span> OnDisable()</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        Time.timeScale = 1.0f;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
 </div>
 <div class="ttc" id="aclass_tiempo_parado_html"><div class="ttname"><a href="../../d7/df2/class_tiempo_parado.html">TiempoParado</a></div><div class="ttdef"><b>Definition</b> <a href="#l00005">PararTiempo.cs:6</a></div></div>
+<div class="ttc" id="aclass_tiempo_parado_html_a1aa59f6caa1303d0692738750f7294c3"><div class="ttname"><a href="../../d7/df2/class_tiempo_parado.html#a1aa59f6caa1303d0692738750f7294c3">TiempoParado.camara</a></div><div class="ttdeci">Camera camara</div><div class="ttdef"><b>Definition</b> <a href="#l00007">PararTiempo.cs:7</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

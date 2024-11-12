@@ -1,5 +1,6 @@
 var class_administrador_vidas =
 [
+    [ "GanarVida", "dd/d77/class_administrador_vidas.html#ad1bbccdde09b1be03846db37e6d78b99", null ],
     [ "PerderVida", "dd/d77/class_administrador_vidas.html#ac9e4de0ea0720d5a0b32a6372120ee7b", null ],
     [ "Start", "dd/d77/class_administrador_vidas.html#ad0f67f59633b5dc5d239023d96ae1176", null ],
     [ "canvasVidas", "dd/d77/class_administrador_vidas.html#a0a8b1c768181b6d379097236e5b4f508", null ],

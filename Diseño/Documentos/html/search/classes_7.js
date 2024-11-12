@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tiempoparado_0',['TiempoParado',['../d7/df2/class_tiempo_parado.html',1,'']]]
+  ['saludnpc_0',['SaludNPC',['../d8/d71/class_salud_n_p_c.html',1,'']]]
 ];

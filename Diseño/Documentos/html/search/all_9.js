@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['parartiempo_2ecs_0',['PararTiempo.cs',['../d8/d26/_parar_tiempo_8cs.html',1,'']]],
-  ['perdervida_1',['PerderVida',['../dd/d77/class_administrador_vidas.html#ac9e4de0ea0720d5a0b32a6372120ee7b',1,'AdministradorVidas']]],
-  ['prefabbala_2',['prefabBala',['../de/d4b/class_disparar.html#abfe3d96958254876ae21d549bf0d8f88',1,'Disparar']]],
-  ['prefabvidas_3',['prefabVidas',['../dd/d77/class_administrador_vidas.html#a27bed5550c74c8c05696ea45f6c0478f',1,'AdministradorVidas']]],
-  ['puntodisparo_4',['puntoDisparo',['../da/d78/class_disparar_n_p_c.html#aa3486b07d10344fed05eb850012d79a5',1,'DispararNPC']]]
+  ['objetorecolectar_0',['objetoRecolectar',['../da/d9d/class_mision_primera.html#a083924ab669009bca260cb15b946282c',1,'MisionPrimera']]],
+  ['objetosvida_1',['objetosVida',['../dd/d77/class_administrador_vidas.html#a071a345fb750133e7ce146e17a283134',1,'AdministradorVidas']]],
+  ['ocultarmenupausa_2',['OcultarMenuPausa',['../d0/d9b/class_menu_pausa.html#a5e55c4f7bbe19b0c88ac12894d2d7761',1,'MenuPausa']]],
+  ['oncollisionenter_3',['OnCollisionEnter',['../dd/da2/class_colision_bala.html#ad2fc1c9b8c39e79a08017d6e9c2bf1e2',1,'ColisionBala']]],
+  ['opcion1_4',['Opcion1',['../d2/d18/class_dialogo_n_p_c.html#a325456a6ca7e57c1630e8ecb9022de29',1,'DialogoNPC']]],
+  ['opcion1_5',['opcion1',['../d2/d18/class_dialogo_n_p_c.html#a38dbe7cf292e4148d1379fd5c7e4ceed',1,'DialogoNPC']]],
+  ['opcion1texto_6',['opcion1Texto',['../d2/d18/class_dialogo_n_p_c.html#a4bdb7a2d257208cf914e72882b4598db',1,'DialogoNPC']]],
+  ['opcion2_7',['Opcion2',['../d2/d18/class_dialogo_n_p_c.html#a16622314ddb89614e3afe7b7ee4ee633',1,'DialogoNPC']]],
+  ['opcion2_8',['opcion2',['../d2/d18/class_dialogo_n_p_c.html#ac7cabe7a91dc819c54dcb4d008c65868',1,'DialogoNPC']]],
+  ['opcion2texto_9',['opcion2Texto',['../d2/d18/class_dialogo_n_p_c.html#ae8e7e52f96e4d591b0cbbf846b0a6269',1,'DialogoNPC']]]
 ];

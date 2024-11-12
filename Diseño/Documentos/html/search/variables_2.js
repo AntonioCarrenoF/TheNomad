@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['dano_0',['dano',['../dc/d8c/class_colision_bala_n_p_c.html#a1d39cab24abcae60979c7e894bb8e106',1,'ColisionBalaNPC']]],
-  ['dialogoinicial_1',['dialogoInicial',['../d2/d18/class_dialogo_n_p_c.html#a7f43476d99f37bf9621608fcad8bf143',1,'DialogoNPC']]],
-  ['dialogoopcion1_2',['dialogoOpcion1',['../d2/d18/class_dialogo_n_p_c.html#acd241ab9aa2e8336d374491c65202f6a',1,'DialogoNPC']]],
-  ['dialogoopcion2_3',['dialogoOpcion2',['../d2/d18/class_dialogo_n_p_c.html#a1c1220118cf5e3a9cc94d8e93632877c',1,'DialogoNPC']]],
-  ['distanciadisparo_4',['distanciaDisparo',['../de/d4b/class_disparar.html#a45de14a4d5d2d530254e336a43d031ef',1,'Disparar']]]
+  ['camara_0',['camara',['../d7/df2/class_tiempo_parado.html#a1aa59f6caa1303d0692738750f7294c3',1,'TiempoParado']]],
+  ['canvasvidas_1',['canvasVidas',['../dd/d77/class_administrador_vidas.html#a0a8b1c768181b6d379097236e5b4f508',1,'AdministradorVidas']]]
 ];

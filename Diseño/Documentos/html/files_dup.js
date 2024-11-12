@@ -16,6 +16,8 @@ var files_dup =
     [ "MenuFinJuego.cs", "db/d96/_menu_fin_juego_8cs.html", "db/d96/_menu_fin_juego_8cs" ],
     [ "MenuInicial.cs", "db/d76/_menu_inicial_8cs.html", "db/d76/_menu_inicial_8cs" ],
     [ "MenuPausa.cs", "d6/d15/_menu_pausa_8cs.html", "d6/d15/_menu_pausa_8cs" ],
+    [ "MisionPrimera.cs", "d6/d6e/_mision_primera_8cs.html", "d6/d6e/_mision_primera_8cs" ],
     [ "PararTiempo.cs", "d8/d26/_parar_tiempo_8cs.html", "d8/d26/_parar_tiempo_8cs" ],
+    [ "RecuperarSalud.cs", "d0/d30/_recuperar_salud_8cs.html", "d0/d30/_recuperar_salud_8cs" ],
     [ "SaludNPC.cs", "d5/d9e/_salud_n_p_c_8cs.html", "d5/d9e/_salud_n_p_c_8cs" ]
 ];

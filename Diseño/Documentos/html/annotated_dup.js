@@ -16,6 +16,8 @@ var annotated_dup =
     [ "MenuFinJuego", "da/dd2/class_menu_fin_juego.html", "da/dd2/class_menu_fin_juego" ],
     [ "MenuInicial", "da/d88/class_menu_inicial.html", "da/d88/class_menu_inicial" ],
     [ "MenuPausa", "d0/d9b/class_menu_pausa.html", "d0/d9b/class_menu_pausa" ],
+    [ "MisionPrimera", "da/d9d/class_mision_primera.html", "da/d9d/class_mision_primera" ],
+    [ "RecuperarSalud", "dd/d2c/class_recuperar_salud.html", "dd/d2c/class_recuperar_salud" ],
     [ "SaludNPC", "d8/d71/class_salud_n_p_c.html", "d8/d71/class_salud_n_p_c" ],
-    [ "TiempoParado", "d7/df2/class_tiempo_parado.html", null ]
+    [ "TiempoParado", "d7/df2/class_tiempo_parado.html", "d7/df2/class_tiempo_parado" ]
 ];

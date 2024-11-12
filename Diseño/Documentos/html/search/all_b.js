@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['salirdeljuego_0',['SalirDelJuego',['../d0/d9b/class_menu_pausa.html#a6ff35bc892b5e1087d7341d2a3fbc803',1,'MenuPausa']]],
-  ['saludactual_1',['saludActual',['../d8/d71/class_salud_n_p_c.html#aee7dd1a826f07a9015fa1262e5fb21ff',1,'SaludNPC']]],
-  ['saludmaxima_2',['saludMaxima',['../d8/d71/class_salud_n_p_c.html#a91f79f62181b03c72aa79b921b3a8b68',1,'SaludNPC']]],
-  ['saludnpc_3',['SaludNPC',['../d8/d71/class_salud_n_p_c.html',1,'']]],
-  ['saludnpc_2ecs_4',['SaludNPC.cs',['../d5/d9e/_salud_n_p_c_8cs.html',1,'']]],
-  ['start_5',['Start',['../dd/d77/class_administrador_vidas.html#ad0f67f59633b5dc5d239023d96ae1176',1,'AdministradorVidas']]]
+  ['recibirdano_0',['RecibirDano',['../d8/d71/class_salud_n_p_c.html#aca31047c026db2f8afc0d3832622a58c',1,'SaludNPC']]],
+  ['recuperarsalud_1',['RecuperarSalud',['../dd/d2c/class_recuperar_salud.html',1,'']]],
+  ['recuperarsalud_2ecs_2',['RecuperarSalud.cs',['../d0/d30/_recuperar_salud_8cs.html',1,'']]],
+  ['referenciavidas_3',['referenciaVidas',['../dd/da2/class_colision_bala.html#ab1552be07a88fca8e7379b6c5d12cff4',1,'ColisionBala']]],
+  ['regresarapantallaprincipal_4',['RegresarAPantallaPrincipal',['../d0/d9b/class_menu_pausa.html#ab3053f1570145d4aa2260faf6fc8d143',1,'MenuPausa']]],
+  ['reintentarnivel_5',['ReintentarNivel',['../da/dd2/class_menu_fin_juego.html#a27e58f0ad6342e6c17a6e05b625f07cc',1,'MenuFinJuego']]]
 ];

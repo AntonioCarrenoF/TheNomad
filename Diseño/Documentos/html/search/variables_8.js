@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['saludactual_0',['saludActual',['../d8/d71/class_salud_n_p_c.html#aee7dd1a826f07a9015fa1262e5fb21ff',1,'SaludNPC']]],
-  ['saludmaxima_1',['saludMaxima',['../d8/d71/class_salud_n_p_c.html#a91f79f62181b03c72aa79b921b3a8b68',1,'SaludNPC']]]
+  ['referenciavidas_0',['referenciaVidas',['../dd/da2/class_colision_bala.html#ab1552be07a88fca8e7379b6c5d12cff4',1,'ColisionBala']]]
 ];

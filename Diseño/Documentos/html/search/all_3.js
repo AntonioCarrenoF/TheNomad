@@ -11,5 +11,6 @@ var searchData=
   ['disparararma_8',['DispararArma',['../de/d4b/class_disparar.html#a81770fb0497ae820d85d240e516aec32',1,'Disparar.DispararArma()'],['../da/d78/class_disparar_n_p_c.html#a0dc8f85886e0dffe30f2de6078cb255a',1,'DispararNPC.DispararArma()']]],
   ['dispararnpc_9',['DispararNPC',['../da/d78/class_disparar_n_p_c.html',1,'']]],
   ['dispararnpc_2ecs_10',['DispararNPC.cs',['../d3/dfa/_disparar_n_p_c_8cs.html',1,'']]],
-  ['distanciadisparo_11',['distanciaDisparo',['../de/d4b/class_disparar.html#a45de14a4d5d2d530254e336a43d031ef',1,'Disparar']]]
+  ['disparo_11',['Disparo',['../de/d4b/class_disparar.html#a674e9f911728d5340d88154c007aa92d',1,'Disparar']]],
+  ['distanciadisparo_12',['distanciaDisparo',['../de/d4b/class_disparar.html#a45de14a4d5d2d530254e336a43d031ef',1,'Disparar']]]
 ];

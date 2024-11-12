@@ -27,9 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">The Nomad<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">The Nomad<span id="projectnumber">&#160;2.0</span>
    </div>
-   <div id="projectbrief">Primer prototipo de The Nomad</div>
+   <div id="projectbrief">Primer prototipo del proyecto</div>
   </td>
  </tr>
  </tbody>
@@ -151,7 +151,19 @@ $(function(){initNavTree('d1/d54/_administrador_vidas_8cs_source.html','../../')
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
 </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../dd/d77/class_administrador_vidas.html#ad1bbccdde09b1be03846db37e6d78b99">   47</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d77/class_administrador_vidas.html#ad1bbccdde09b1be03846db37e6d78b99">GanarVida</a>(<span class="keywordtype">int</span> cantidad)</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; cantidad; i++)</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            GameObject objetoVida = Instantiate(<a class="code hl_variable" href="../../dd/d77/class_administrador_vidas.html#a27bed5550c74c8c05696ea45f6c0478f">prefabVidas</a>, <a class="code hl_variable" href="../../dd/d77/class_administrador_vidas.html#a0a8b1c768181b6d379097236e5b4f508">canvasVidas</a>.transform);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            <a class="code hl_variable" href="../../dd/d77/class_administrador_vidas.html#a071a345fb750133e7ce146e17a283134">objetosVida</a>.Add(objetoVida);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        textoVidas.text = <span class="stringliteral">&quot;Vidas: &quot;</span> + <a class="code hl_variable" href="../../dd/d77/class_administrador_vidas.html#a071a345fb750133e7ce146e17a283134">objetosVida</a>.Count;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    }</div>
+</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
 </div>
 <div class="ttc" id="aclass_administrador_vidas_html"><div class="ttname"><a href="../../dd/d77/class_administrador_vidas.html">AdministradorVidas</a></div><div class="ttdef"><b>Definition</b> <a href="#l00009">AdministradorVidas.cs:10</a></div></div>
 <div class="ttc" id="aclass_administrador_vidas_html_a071a345fb750133e7ce146e17a283134"><div class="ttname"><a href="../../dd/d77/class_administrador_vidas.html#a071a345fb750133e7ce146e17a283134">AdministradorVidas.objetosVida</a></div><div class="ttdeci">List&lt; GameObject &gt; objetosVida</div><div class="ttdef"><b>Definition</b> <a href="#l00014">AdministradorVidas.cs:14</a></div></div>
@@ -162,6 +174,7 @@ $(function(){initNavTree('d1/d54/_administrador_vidas_8cs_source.html','../../')
 <div class="ttc" id="aclass_administrador_vidas_html_aad6cda9a277b00304262756fee190dec"><div class="ttname"><a href="../../dd/d77/class_administrador_vidas.html#aad6cda9a277b00304262756fee190dec">AdministradorVidas.menuFinJuego</a></div><div class="ttdeci">GameObject menuFinJuego</div><div class="ttdef"><b>Definition</b> <a href="#l00016">AdministradorVidas.cs:16</a></div></div>
 <div class="ttc" id="aclass_administrador_vidas_html_ac9e4de0ea0720d5a0b32a6372120ee7b"><div class="ttname"><a href="../../dd/d77/class_administrador_vidas.html#ac9e4de0ea0720d5a0b32a6372120ee7b">AdministradorVidas.PerderVida</a></div><div class="ttdeci">void PerderVida()</div><div class="ttdef"><b>Definition</b> <a href="#l00030">AdministradorVidas.cs:30</a></div></div>
 <div class="ttc" id="aclass_administrador_vidas_html_ad0f67f59633b5dc5d239023d96ae1176"><div class="ttname"><a href="../../dd/d77/class_administrador_vidas.html#ad0f67f59633b5dc5d239023d96ae1176">AdministradorVidas.Start</a></div><div class="ttdeci">void Start()</div><div class="ttdef"><b>Definition</b> <a href="#l00019">AdministradorVidas.cs:19</a></div></div>
+<div class="ttc" id="aclass_administrador_vidas_html_ad1bbccdde09b1be03846db37e6d78b99"><div class="ttname"><a href="../../dd/d77/class_administrador_vidas.html#ad1bbccdde09b1be03846db37e6d78b99">AdministradorVidas.GanarVida</a></div><div class="ttdeci">void GanarVida(int cantidad)</div><div class="ttdef"><b>Definition</b> <a href="#l00047">AdministradorVidas.cs:47</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
